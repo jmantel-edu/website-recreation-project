@@ -3,3 +3,28 @@ Highlight: #FFC300
 Main: #000000
 
 */
+
+* {
+    background-color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left-image {
+    float: left;
+}
+h1 .left-image {
+    float: right;
+}
+p .left-image {
+    float: right;
+}
+
+.right-image {
+    float: right;
+}
+h1 .right-image {
+    float: left;
+}
+p .right-image {
+    float: left;
+}
